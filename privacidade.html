@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade · Sistema Caparros</title>
+<style>
+  :root { --fundo: #fbf8f5; --texto: #2a1d14; --suave: #6b5a4e; --cobre: #b87333; --linha: #e6dccf; }
+  @media (prefers-color-scheme: dark) { :root { --fundo: #1d1510; --texto: #f1e8df; --suave: #b9a898; --cobre: #d9944f; --linha: #3a2c22; } }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px/1.6 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  .sub { color: var(--suave); margin: 0 0 1.5rem; }
+  a { color: var(--cobre); }
+  li { margin: .25rem 0; }
+  nav { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--linha); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Sistema Caparros · Caparros Peças · atualizada em 19/10/2026</p>
+
+  <p>Esta política explica como o Sistema Caparros, sistema interno de gestão comercial e financeira da Caparros Peças, trata os dados, inclusive os acessados por meio da sua conta do Google.</p>
+
+  <h2>Quem usa o sistema</h2>
+  <p>O sistema é de uso interno. Só entram nele as pessoas que a empresa cadastrou, cada uma com login e senha próprios. Não há cadastro aberto ao público.</p>
+
+  <h2>Quais dados o sistema trata</h2>
+  <ul>
+    <li><strong>Dados de operação da empresa:</strong> clientes, fornecedores, produtos, orçamentos, pedidos, compras e lançamentos financeiros, inseridos pela equipe. Ficam em um banco de dados protegido (Supabase), com controle de acesso por pessoa.</li>
+    <li><strong>Dados das contas da equipe:</strong> nome, e-mail de login e as permissões de cada pessoa.</li>
+    <li><strong>Arquivos no Google Drive:</strong> PDFs dos documentos gerados e cópias de segurança, guardados no Google Drive da conta da empresa.</li>
+  </ul>
+
+  <h2>Uso das APIs do Google</h2>
+  <p>O sistema usa apenas a permissão <code>https://www.googleapis.com/auth/drive.file</code> do Google Drive. Com ela, o sistema só enxerga e altera os arquivos e pastas que ele mesmo cria. Ele <strong>não</strong> lê, lista nem altera os demais arquivos do Drive, e não acessa e-mails, contatos, agenda ou fotos.</p>
+  <p>Os arquivos são enviados exclusivamente para a conta do Google da empresa, que autorizou o acesso. O acesso é feito por um servidor da empresa; as credenciais ficam guardadas em cofre seguro e nunca aparecem no aplicativo usado pela equipe.</p>
+  <p>O uso e a transferência, para qualquer outro aplicativo, das informações recebidas das APIs do Google seguirão a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+  <h2>Compartilhamento</h2>
+  <p>A empresa não vende nem compartilha esses dados com terceiros para publicidade ou qualquer outra finalidade. Os dados ficam acessíveis apenas às pessoas autorizadas e aos serviços técnicos necessários para o sistema funcionar (hospedagem do banco de dados e Google Drive).</p>
+
+  <h2>Segurança</h2>
+  <p>O acesso é protegido por login individual e por regras de permissão: cada pessoa vê apenas o que a empresa liberou para ela. A comunicação é feita por conexão segura (HTTPS).</p>
+
+  <h2>Retenção e exclusão</h2>
+  <p>Os arquivos e registros ficam guardados enquanto forem necessários para a atividade da empresa. A empresa pode apagar os arquivos do Drive a qualquer momento e pode revogar o acesso do sistema à conta do Google em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Seus direitos e contato</h2>
+  <p>Para dúvidas, correções ou pedidos sobre dados pessoais tratados pelo sistema, escreva para <a href="mailto:contato@caparrospecas.com.br">contato@caparrospecas.com.br</a>.</p>
+
+  <h2>Mudanças</h2>
+  <p>Esta política pode ser atualizada. A data no topo indica a versão em vigor.</p>
+
+  <nav><a href="index.html">Início</a> · <a href="termos.html">Termos de Serviço</a></nav>
+</main>
+</body>
+</html>
